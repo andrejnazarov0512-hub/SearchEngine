@@ -33,7 +33,7 @@ void LocalMap(const std::string& doc, std::map<std::string, int>& out_map){
     }
 }
 
-void InvertedIndex::UpdateDocumentBase(std::vector<std::string> input_docs){
+void InvertedIndex::UpdateDocumentBase(const std::vector<std::string>& input_docs){
 freq_dictionary.clear();
 std::vector<std::thread> threads;
 std::vector<std::map<std::string, int>> maps(input_docs.size());

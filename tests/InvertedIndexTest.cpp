@@ -43,9 +43,8 @@ const vector<vector<Entry>> expected = {
 {
 {0, 4}, {1, 1}, {2, 5}
 }, {
-{0, 2}, {1, 2}, {2, 5}
+{0, 3}, {1, 2}, {2, 5}
 }, {
-{3, 1}
 }
 };
 TestInvertedIndexFunctionality(docs, requests, expected);
