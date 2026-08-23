@@ -1,12 +1,21 @@
+#build
+build/
+cmake-build-*/
+out/
+
+
 # CMake
-/build/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+CTestTestfile.cmake
 Makefile
+Testing/
 
 # Visual Studio
-*.vcxproj*
+*.vs/
+*.vcxproj
+*.vcxproj.filters
 *.sln
 *.user
 *.filters
@@ -15,11 +24,14 @@ Makefile
 .vscode/
 *.code-workspace
 
-# Binaries
+# Compiled files
 *.exe
 *.dll
 *.obj
 *.pdb
+*.o
+*.a
+*.lib
 
 # Others
 *.log
